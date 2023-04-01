@@ -21,7 +21,7 @@ app.use(express.json());
     res.header("Access-Control-Allow-Origin", "*")
     res.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE")
     res.header("Access-Control-Allow-Headers", "x-access-token, Origin, X-Requested-With, Content-Type, Accept")
-})*/
+})*/ 
 
 //routes
 app.get('/', (req,res)=> {
