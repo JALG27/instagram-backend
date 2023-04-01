@@ -41,11 +41,11 @@ const userSchema = new mongoose_1.Schema({
     /*profilepic: {
         type: String,
         required: true
-    },*/
+    },
     foto: {
         type: String,
         required: false
-    }
+    }*/
 });
 //metodo para cifrar password
 userSchema.pre('save', function (next) {
